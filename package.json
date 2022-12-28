@@ -1,0 +1,21 @@
+{
+  "name": "aoc-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "build": "tsc",
+      "get_day_input": "ts-node src/utils/downloadInput.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickwarters/aoc-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickwarters/aoc-template/issues"
+  },
+  "homepage": "https://github.com/nickwarters/aoc-template#readme"
+}
