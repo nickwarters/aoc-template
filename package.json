@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
       "build": "tsc",
-      "get_day_input": "ts-node src/utils/downloadInput.ts"
+      "downloadInput": "ts-node src/utils/downloadInput.ts"
   },
   "repository": {
     "type": "git",
