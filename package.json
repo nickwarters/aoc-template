@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
       "build": "tsc",
       "downloadInput": "ts-node src/utils/downloadInput.ts"
@@ -17,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/nickwarters/aoc-template/issues"
   },
-  "homepage": "https://github.com/nickwarters/aoc-template#readme"
+ "dependencies": {
+		"dotenv": "^16.0.3",
+		"yargs": "^17.1.1-candidate.0"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.10",
+		"@types/yargs": "^17.0.17"
+	}, "homepage": "https://github.com/nickwarters/aoc-template#readme"
 }
